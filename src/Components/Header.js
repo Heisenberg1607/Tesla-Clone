@@ -3,7 +3,7 @@ import React from "react";
 import "../Components/header.css";
 import logo from "../images/logo.svg";
 import MenuIcon from "@mui/icons-material/Menu";
-
+import CloseIcon from "@mui/icons-material/Close";
 
 function Header() {
   return (
@@ -30,10 +30,38 @@ function Header() {
         <a href="#">Tesla Account</a>
         <MenuIcon />
       </div>
+      <div className="Burger-nav">
+        <div className="closeBtn">
+          <CloseIcon className="closeBtn" />
+        </div>
+
+        <li>
+          <a href="#">Existing library</a>
+        </li>
+        <li>
+          <a href="#">Used library</a>
+        </li>
+        <li>
+          <a href="#">Trade-in</a>
+        </li>
+        <li>
+          <a href="#">CyberTruck</a>
+        </li>
+        <li>
+          <a href="#">Roadster</a>
+        </li>
+        <li>
+          <a href="#">Existing library</a>
+        </li>
+        <li>
+          <a href="#">Existing library</a>
+        </li>
+        <li>
+          <a href="#">Existing library</a>
+        </li>
+      </div>
     </div>
   );
 }
-
-
 
 export default Header;

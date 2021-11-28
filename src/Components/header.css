@@ -4,7 +4,8 @@
     display:flex;
     padding:20px 20px;
     width: 100%;
-    justify-content:space-between;      
+    justify-content:space-between;   
+    z-index:1;   
 }
 
 .menu{
@@ -34,4 +35,30 @@ MenuIcon{
     .menu{
         display: none;
     }
+}
+
+.Burger-nav{
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    background:white;
+    width:300px;
+    z-index:16;
+    display:flex;
+    flex-direction: column;
+    list-style: none;
+    padding:20px;
+    font-weight: 300;
+    display:none;
+
+}   
+.Burger-nav li{
+    padding:15px 0;
+    border-bottom: 1px solid rgba(0,0,0,.2)
+}
+.closeBtn{
+    display:flex;
+    justify-content:flex-end;
+
 }
