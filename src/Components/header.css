@@ -50,7 +50,9 @@ MenuIcon{
     list-style: none;
     padding:20px;
     font-weight: 300;
-    display:none;
+    /* display:none; */
+    
+     
 
 }   
 .Burger-nav li{
@@ -61,4 +63,7 @@ MenuIcon{
     display:flex;
     justify-content:flex-end;
 
+}
+.menu-btn{
+    cursor: pointer;
 }
